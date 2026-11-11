@@ -1,16 +1,30 @@
-# Scale institutional knowledge using Copilot Spaces
+# OctoAcme Project Management Docs
 
-<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
+This directory brings together the OctoAcme project management process guidance in one place. It provides a practical framework for how the team initiates work, plans delivery, tracks progress, manages risk, releases changes, and improves over time.
 
-Hey sharpj6637!
+OctoAcme follows a structured lifecycle that starts with problem definition and stakeholder alignment, moves into planning and backlog prioritization, continues through iterative execution with quality checks, and ends with release validation and retrospective-driven improvement. The goal is to make work visible, accountable, and repeatable across product, engineering, and stakeholder groups.
 
-Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
+At the center of this process are clear roles and responsibilities. Product and project leads define outcomes and priorities, developers build and validate features, QA supports acceptance testing, and stakeholders provide input and approvals. Communication is regular and transparent: daily or team-based updates, weekly alignment, milestone reviews, and escalations when risks or blockers require leadership intervention.
 
-Remember, it's self-paced so feel free to take a break! ☕️
+Quality is built into the delivery process through clear acceptance criteria, CI validation, testing requirements, and deployment checks. Teams use project boards, risk registers, milestone planning, and retrospectives to keep work aligned and improve the process over time. The project management documents below provide more detail for each stage of the lifecycle.
 
-[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/sharpj6637/skills-scale-institutional-knowledge-using-copilot-spaces/issues/1)
+## Process Documents
 
----
+- [Project Management Overview](octoacme-project-management-overview.md)
+- [Project Initiation Guide](octoacme-project-initiation.md)
+- [Project Planning](octoacme-project-planning.md)
+- [Execution & Tracking](octoacme-execution-and-tracking.md)
+- [Risk Management & Communication](octoacme-risks-and-communication.md)
+- [Release & Deployment](octoacme-release-and-deployment.md)
+- [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md)
+- [Roles & Personas](octoacme-roles-and-personas.md)
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+## Summary of the OctoAcme Process
 
+OctoAcme begins each initiative by validating the business need, aligning stakeholders, and creating a lightweight plan. This initiation phase defines the problem, success metrics, timeline, risks, and resource needs so the team can decide whether to move forward. Once approved, the project enters planning, where the backlog is prioritized, estimates and milestones are set, dependencies are identified, and the Definition of Done is documented.
+
+During execution, teams use a project board to manage work across Backlog, Ready, In Progress, In Review, QA, and Done. Progress is reviewed in standups and checkpoint meetings, while PRs are expected to be small, linked to issues, and validated through automated tests, linting, and security checks before review. Quality assurance practices include unit tests, integration tests when relevant, smoke tests for critical flows, and manual QA for feature acceptance.
+
+Communication is another core pillar of the OctoAcme approach. The PM and Product Lead maintain regular status updates, stakeholders receive milestone-based communication, and risks are tracked with clear owners, mitigation plans, and escalation paths. When issues become blockers, responsibilities escalate from the team to the PM and product leadership, with sponsor-level intervention reserved for business-impacting problems.
+
+Finally, OctoAcme emphasizes disciplined release and continuous improvement. Changes are released only when acceptance criteria are met, CI and security scans pass, rollback plans exist, and deployment checks are staged and verified. After each sprint, release, or major milestone, the team conducts a retrospective to capture lessons learned and translate them into action items that improve future execution.
